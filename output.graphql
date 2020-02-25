@@ -1,0 +1,44 @@
+type Attributes {
+  type: String
+  title: String
+  author: String
+  date: String
+}
+
+type 0 {
+  body: String
+  bodyBegin: Int
+  frontmatter: String
+  attributes: Attributes
+}
+
+type 1 {
+  body: String
+  bodyBegin: Int
+  frontmatter: String
+  attributes: Attributes
+}
+
+type 2 {
+  body: String
+  bodyBegin: Int
+  frontmatter: String
+  attributes: Attributes
+}
+
+type 3 {
+  body: String
+  bodyBegin: Int
+  frontmatter: String
+  attributes: Attributes
+}
+
+type Pages {
+  0: 0
+  1: 1
+  2: 2
+  3: 3
+}
+
+# Types with identical fields:
+# 0 1 2 3

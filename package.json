@@ -1,0 +1,24 @@
+{
+  "name": "kprox-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/utils/md2json.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.10.0",
+    "graphql": "^14.6.0",
+    "gray-matter": "^4.0.2",
+    "ts-node-dev": "^1.0.0-pre.44"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.1",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.5"
+  }
+}
